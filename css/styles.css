@@ -32,8 +32,7 @@ img{
 button{
     font-family: inherit;
     cursor: pointer;
-    background-color: var(--accent-color);
-    }
+}
 
 .logo{
     font-family: var(--secondary-font);
@@ -68,6 +67,14 @@ button{
     color:var(--primary-text-color-title)
 }
 
+.menu-link-studio{
+    color: var(--accent-color);
+}
+
+.menu-link-portfolio{
+    color: var(--accent-color);
+}
+
 .menu-link:hover,
 .menu-link:focus{
     color: var(--accent-color);
@@ -91,8 +98,11 @@ button{
     color: var(--accent-color);
 }
 
-.hero-title{
+.hero{
     background-color: #2F303A;
+}
+
+.hero-title{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -104,6 +114,7 @@ button{
 }
 
 .modal-open-btn{
+    background-color:var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -111,6 +122,17 @@ button{
     display: flex;
     align-items: center;
     text-align: center;
+    color: var(--primary-text-color-theme-dark);
+}
+
+.modal-open-btn-all{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    /* identical to box height, or 162% */
+    text-align: center;
+    background-color:var(--accent-color);
     color: var(--primary-text-color-theme-dark);
 }
 
@@ -149,8 +171,6 @@ button{
 }
 
 .projects-name{
-    font-family: var(--primary-font);
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     /* identical to box height, or 200% */
@@ -165,16 +185,14 @@ button{
 }
 
 .projects-text{
-    font-family: var(--primary-font);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     /* identical to box height, or 188% */
     color: var(--primary-text-color-theme-light);
 }
 
-.activity,
-.team{
+
+.section-title{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
